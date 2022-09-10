@@ -1,7 +1,8 @@
 import React from 'react';
 import { Wrapper, NavbarWrapper, Logo, NavbarBody, Container, ActiveStyle } from './style';
 import {navbar} from '../../utils/navbar';
-import { useNavigate, NavLink } from 'react-router-dom';
+import { useNavigate, NavLink, Outlet } from 'react-router-dom';
+import Button  from '../Generic/Button';
 
 
 
@@ -31,10 +32,11 @@ const Navbar = () => {
                   }
                 </NavbarBody>
 
-                <button>Login</button>
+                <Button width={'120px'}>SignIn</Button>
                 
             </NavbarWrapper>
         </Container>
+        <Outlet/>
     </Wrapper>
   )
 }
