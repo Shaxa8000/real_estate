@@ -1,4 +1,5 @@
 import React from "react";
+import Home from "../pages/Home";
 
 
 export const navbar = [
@@ -6,7 +7,7 @@ export const navbar = [
         id: 1,
         title: 'Home',
         path: './home',
-        Element: <div/>,
+        Element: <Home/>,
         search: '?',
         hidden: false,
         private: false
