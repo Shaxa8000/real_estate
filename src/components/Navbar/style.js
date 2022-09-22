@@ -142,7 +142,7 @@ const DrawerItem = styled(NavLink)`
 
 const DrawSocials = styled.div`
   ${common};
-  gap: 20px;
+  gap: 10px;
   margin-top: 80px;
 
 `
