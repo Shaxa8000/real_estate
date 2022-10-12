@@ -3,7 +3,6 @@ import { Container, Icon, Wrapper } from './style';
 
 const Input = ({
   children,
-  onClick,
   height,
   width,
   type,
@@ -24,7 +23,7 @@ const Input = ({
       <Container
         defaultValue={defaultValue}
         name = {name}
-        onChange={onChange}
+        onChange= {onChange}
         placeholder={placeholder}
         mt={mt}
         mb={mb}
@@ -32,7 +31,6 @@ const Input = ({
         type={type}
         width={width}
         height={height}
-        onClick={onClick}
         value={value}
       />
     </Wrapper>

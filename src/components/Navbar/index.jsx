@@ -12,7 +12,6 @@ const Navbar = () => {
   const [visible, setVisible] = useState(false);
   const [placement, setPlacement] = useState('left');
 
-
   const showDrawer = () => {
       setVisible(true);
   };

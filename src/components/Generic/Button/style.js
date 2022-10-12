@@ -2,26 +2,26 @@ import styled from 'styled-components';
 
 
 const getType = (type) => {
-    switch (type) {
-        case 'secondary':
-            return {
-                border: '1px solid #e6e9ec',
-                color: '#0D263B'
-            };
-        case 'primary':
-            return {
-                background: '#0061DF',
-                color: '#FFFFFF',
-                border: 'none'
-            };
-        default:
-            return {
-                border: '1px solid #E6E9EC',
-                color: '#FFFFFF'
-            }
-    }
-};
+  switch (type) {
+    case 'secondary':
+      return {
+        border: '1px solid #E6E9EC',
+        color: '#0D263B',
+      };
+    case 'primary':
+      return {
+        border: 'none',
+        color: '#FFFFFF',
+        background: '#0061DF',
+      };
 
+    default:
+      return {
+        border: '1px solid #E6E9EC',
+        color: '#FFFFFF',
+      };
+  }
+};
 
 
 const Container = styled.div`
@@ -30,7 +30,7 @@ const Container = styled.div`
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  font-height: 20px;
+  /* font-height: 20px; */
   justify-content: center;
   align-items: center;
 
