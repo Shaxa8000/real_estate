@@ -1,11 +1,12 @@
 import React from "react";
+import useId from '../hooks/useId';
 import Home from "../pages/Home";
 import Generic from "../pages/Generic";
 
 
 export const navbar = [
     {
-        id: 1,
+        id: useId,
         title: 'Home',
         path: '/home',
         Element: <Home/>,
@@ -14,7 +15,7 @@ export const navbar = [
         private: false
     },
     {
-        id: 2,
+        id: useId,
         title: 'Properties',
         path: '/properties',
         Element: <Generic/>,
@@ -23,7 +24,7 @@ export const navbar = [
         private: false
     },
     {
-        id: 3,
+        id: useId,
         title: 'Contacts',
         path: '/contacts',
         Element: <Generic/>,
@@ -32,7 +33,7 @@ export const navbar = [
         private: false
     },
     {
-        id: 4,
+        id: useId,
         title: 'SignIn',
         path: '/signin',
         Element: <Generic/>,
@@ -41,7 +42,7 @@ export const navbar = [
         private: false
     },
     {
-        id: 5,
+        id: useId,
         title: 'SignUp',
         path: '/signup',
         Element: <Generic/>,
