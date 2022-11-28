@@ -10,6 +10,10 @@ const Container = styled.div`
   padding: 0 130px;
   gap: 20px;
   margin: 10px 0;
+
+  @media(max-width: 428px) {
+    padding: 0 20px;
+  }
 `;
 
 const Icon = styled.div`
@@ -35,6 +39,10 @@ const Advanced = styled.div`
   background: #ffffff;
   border-radius: 5px;
   padding: 10px;
+
+  @media(max-width: 428px){
+    text-align: center;
+  }
 `;
 
 Advanced.Title = styled.div`
@@ -44,6 +52,7 @@ Advanced.Title = styled.div`
   font-size: 16px;
   line-height: 24px;
   color: #0D263B;
+
 `;
 
 const Section = styled.div`
@@ -51,7 +60,7 @@ const Section = styled.div`
   margin-bottom: 15px;
   justify-content: flex-end;
   gap: 0 20px;
-`
+`;
 
 
 
