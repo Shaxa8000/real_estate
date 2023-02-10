@@ -88,7 +88,7 @@ const Navbar = () => {
                   }
                 </NavbarBody>
               <div className='login'>
-                <Button className='login' width={'120px'}>SignIn</Button>
+                <Button type='primary' className='login' width={'120px'}>SignIn</Button>
               </div>
                 <UserIcon/>
             </NavbarWrapper>

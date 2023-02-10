@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,700&family=Fira+Code:wght@400;600;700&family=Montserrat:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500&display=swap');
 @import 'antd/dist/antd.css';
 
 * {
@@ -7,15 +8,21 @@
 }
 
 body {
-    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,700;1,400;1,700&family=Fira+Code:wght@300;400;500;600;700&display=swap');
-    background: #ffffff;
+    /* background: #ffffff; */
+    font-family: 'Montserrat', sans-serif;
 }
 
 :root {
+    /* color */
     --primaryColor: #0D263B;
     --secondaryColor: #696969;
     --activeColor: #0061DF;
 
+    /* background */
+    --backgroundPrimary: #0061DF;
+
+
+    /* width */
     --width: 1440px;
 }
 

@@ -34,9 +34,9 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
 
-  height: ${({ height }) => height || '44px'};
-  min-width: ${({ width }) => (width ? width : '100%')};
-  width: ${({ width }) => (width ? width : '100%')};
+  height: ${({ height }) => height ? `${height}px` : '44px'};
+  min-width: ${({ width }) => (width ? `${width}px` : '100%')};
+  width: ${({ width }) => (width ? `${width}px` : '100%')};
   border-radius: 2px;
   margin-right: ${({ mr }) => `${mr}px`};
   margin-left: ${({ ml }) => `${ml}px`};
@@ -46,7 +46,7 @@ const Container = styled.div`
   ${({ type }) => getType(type)}
   :active {
       transform: scale(0.98);
-      opacity: 0.7
+      opacity: 0.7;
   }
 `;
 
